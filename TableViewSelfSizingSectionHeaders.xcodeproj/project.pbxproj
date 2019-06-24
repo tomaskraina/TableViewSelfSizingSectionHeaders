@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C08989722C11ED400EE6D18 /* TableViewSelfSizingHeaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewSelfSizingHeaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C08989722C11ED400EE6D18 /* TableViewSelfSizingSectionHeaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewSelfSizingSectionHeaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C08989A22C11ED400EE6D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C08989C22C11ED400EE6D18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C08989F22C11ED400EE6D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		9C08988E22C11ED400EE6D18 = {
 			isa = PBXGroup;
 			children = (
-				9C08989922C11ED400EE6D18 /* TableViewSelfSizingHeaders */,
+				9C08989922C11ED400EE6D18 /* TableViewSelfSizingSectionHeaders */,
 				9C08989822C11ED400EE6D18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		9C08989822C11ED400EE6D18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C08989722C11ED400EE6D18 /* TableViewSelfSizingHeaders.app */,
+				9C08989722C11ED400EE6D18 /* TableViewSelfSizingSectionHeaders.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C08989922C11ED400EE6D18 /* TableViewSelfSizingHeaders */ = {
+		9C08989922C11ED400EE6D18 /* TableViewSelfSizingSectionHeaders */ = {
 			isa = PBXGroup;
 			children = (
 				9C08989A22C11ED400EE6D18 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				9C0898A322C11ED500EE6D18 /* LaunchScreen.storyboard */,
 				9C0898A622C11ED500EE6D18 /* Info.plist */,
 			);
-			path = TableViewSelfSizingHeaders;
+			path = TableViewSelfSizingSectionHeaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C08989622C11ED400EE6D18 /* TableViewSelfSizingHeaders */ = {
+		9C08989622C11ED400EE6D18 /* TableViewSelfSizingSectionHeaders */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C0898A922C11ED500EE6D18 /* Build configuration list for PBXNativeTarget "TableViewSelfSizingHeaders" */;
+			buildConfigurationList = 9C0898A922C11ED500EE6D18 /* Build configuration list for PBXNativeTarget "TableViewSelfSizingSectionHeaders" */;
 			buildPhases = (
 				9C08989322C11ED400EE6D18 /* Sources */,
 				9C08989422C11ED400EE6D18 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = TableViewSelfSizingHeaders;
+			name = TableViewSelfSizingSectionHeaders;
 			productName = TableViewSelfSizingHeaders;
-			productReference = 9C08989722C11ED400EE6D18 /* TableViewSelfSizingHeaders.app */;
+			productReference = 9C08989722C11ED400EE6D18 /* TableViewSelfSizingSectionHeaders.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C08989222C11ED400EE6D18 /* Build configuration list for PBXProject "TableViewSelfSizingHeaders" */;
+			buildConfigurationList = 9C08989222C11ED400EE6D18 /* Build configuration list for PBXProject "TableViewSelfSizingSectionHeaders" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C08989622C11ED400EE6D18 /* TableViewSelfSizingHeaders */,
+				9C08989622C11ED400EE6D18 /* TableViewSelfSizingSectionHeaders */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JW7568EEN;
-				INFOPLIST_FILE = TableViewSelfSizingHeaders/Info.plist;
+				INFOPLIST_FILE = TableViewSelfSizingSectionHeaders/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tomkraina.TableViewSelfSizingHeaders;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomkraina.TableViewSelfSizingSectionHeaders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +302,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JW7568EEN;
-				INFOPLIST_FILE = TableViewSelfSizingHeaders/Info.plist;
+				INFOPLIST_FILE = TableViewSelfSizingSectionHeaders/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tomkraina.TableViewSelfSizingHeaders;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomkraina.TableViewSelfSizingSectionHeaders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C08989222C11ED400EE6D18 /* Build configuration list for PBXProject "TableViewSelfSizingHeaders" */ = {
+		9C08989222C11ED400EE6D18 /* Build configuration list for PBXProject "TableViewSelfSizingSectionHeaders" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C0898A722C11ED500EE6D18 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C0898A922C11ED500EE6D18 /* Build configuration list for PBXNativeTarget "TableViewSelfSizingHeaders" */ = {
+		9C0898A922C11ED500EE6D18 /* Build configuration list for PBXNativeTarget "TableViewSelfSizingSectionHeaders" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C0898AA22C11ED500EE6D18 /* Debug */,
